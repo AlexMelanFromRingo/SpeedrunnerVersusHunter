@@ -1,0 +1,26 @@
+name: SVH2
+version: '${version}'
+main: org.alex_melan.svh2.SVH2
+api-version: '1.20'
+prefix: SVH2
+authors: [§aAlex_Melan]
+description: Plugin that adding Speedrun Versus Hunter v2 game
+commands:
+  tracker:
+    description: Sets the compass target to the specified player
+    usage: /<command> <playername>
+  join_game:
+    description: Allows play in this minigame
+    usage: /<command>
+  new_game:
+    description: Starts new game
+    usage: /<command>
+  set_new_game_time:
+    description: Sets waiting new game time
+    usage: /command <seconds>
+  set_run_time:
+    description: Sets time for run
+    usage: /command <seconds>
+  compass_time:
+    description: Sets compass allow time
+    usage: /command <seconds>
